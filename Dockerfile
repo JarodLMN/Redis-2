@@ -7,8 +7,8 @@ RUN set -x \
   && wget http://download.redis.io/releases/redis-2.8.3.tar.gz \
   && tar -xzf redis-2.8.3.tar.gz --strip-components=1 \
   && rm redis-2.8.3.tar.gz \
-  && make -C /redis-2.8.3 \
-  && make -C /redis-2.8.3 install \
-  && cp /usr/src/redis/redis.conf /etc/redis.conf \
-  && rm -r /redis-2.8.3
+  && pwd && ls -l \
+  && make -C redis-2.8.3 \
+  && make -C redis-2.8.3 install \
+  && rm -r redis-2.8.3
 EXPOSE 6379
