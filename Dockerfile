@@ -14,3 +14,4 @@ RUN set -x \
   && rm ./redis-2.8.3.tar.gz
 EXPOSE 6379
 
+
