@@ -1,5 +1,5 @@
 #Dockerfile
-FROM daocloud.io/geyijun/basic_image
+FROM daocloud.io/geyijun/basic_image:v0.01
 MAINTAINER geyijun<geyijun@xiongmaitech.com>
 
 COPY redis_bin/ /xm_workspace/xmcloud3.0/redis_bin/
