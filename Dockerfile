@@ -11,6 +11,5 @@ RUN set -x \
   && make -C ./redis-2.8.3 install \
   && rm -rf -R ./redis-2.8.3  \
   && rm ./redis-2.8.3.tar.gz
-EXPOSE 6379
 
 
