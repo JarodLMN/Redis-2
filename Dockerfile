@@ -1,5 +1,5 @@
 #Dockerfile
-FROM daocloud.io/geyijun/basic_image:v0.03
+FROM daocloud.io/geyijun/basic_image_super:v0.03
 MAINTAINER geyijun<geyijun@xiongmaitech.com>
 
 RUN set -x \
